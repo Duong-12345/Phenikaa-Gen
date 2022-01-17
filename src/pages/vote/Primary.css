@@ -1,0 +1,23 @@
+.content_block_primary{
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    width: 80%;
+    position: relative;
+    min-height: 30rem;
+}
+#pagination{
+    margin: 30px
+}
+@media screen and (max-width: 755px) {
+    .content_block_primary {
+        width: 100%;
+    }
+  }
+  .bound_menu_primary{
+
+  }
+  #menu_primary{
+      height: 100%;
+  }

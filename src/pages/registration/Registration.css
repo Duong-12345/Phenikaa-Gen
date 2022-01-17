@@ -1,0 +1,20 @@
+.back{
+    float: left;
+    color: grey;
+    margin: 20px 0 0 0
+}
+.content_block{
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background: white;
+    width: 80%;
+    position: relative;
+    min-height: 30rem;
+}
+h3{
+    color: blue;
+}
+h2{
+    color:brown
+}

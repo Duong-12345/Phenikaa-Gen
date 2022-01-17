@@ -1,0 +1,29 @@
+.content_block_new {
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  background: white;
+  width: 80%;
+  position: relative;
+  min-height: 30rem;
+}
+.bound-text-new {
+  width: -webkit-fill-available;
+  font-weight: bold;
+  color: #1d2aa6;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.bound_news {
+  display: block;
+}
+@media screen and (max-width: 755px) {
+  .content_block_new {
+    width: 100%;
+  }
+  .bound_img_new {
+    width: 100%;
+    height: auto;
+  }
+}

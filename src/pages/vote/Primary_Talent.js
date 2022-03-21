@@ -1,16 +1,15 @@
 import "antd/dist/antd.css";
 import "./Primary.css";
 import { Menu, Pagination } from "antd";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as  Link } from "react-router-dom";
 import { ArrowLeftOutlined } from "@ant-design/icons";
-import ChildrenCandidate from "../../components/ChildrenCandidateFace";
 import { useSelector } from "react-redux";
-import { useState } from "react";
+// import { useState } from "react";
 import ChildrenCandidateTalent from "../../components/ChidrenCandidateTalent";
 
 export default function PrimaryTalent() {
   const candidateTalent = useSelector((state) => state.candidate.talent);
-  const [card, setCard] = useState(candidateTalent);
+  // const [card, setCard] = useState(candidateTalent);
   return (
     <div className="content_block_primary">
       <div className="back_bound">

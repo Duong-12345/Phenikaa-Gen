@@ -26,7 +26,7 @@ const contentStyle = {
 };
 
 export default function DetailFace() {
-  let url = "https://github.com";
+  let url = `https://phenikaa-next-gen.herokuapp.com/primary/face/detail/:id`;
   const detailF = useSelector((state) => state.candidateDetail1.faceDetail);
   const isFetching = useSelector((state) => state.candidateDetail1.isFetching);
   // console.log(isFetching);

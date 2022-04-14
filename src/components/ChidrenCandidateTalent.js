@@ -8,9 +8,7 @@ import { detailTalentAction } from "../action/actionCandidate";
 const { Meta } = Card;
 
 export default function ChildrenCandidateTalent(props) {
-  const message = () => {
-    console.log("afdfdad");
-  };
+  
   const dispatch = useDispatch();
   const click = (id) => {
     dispatch(detailTalentAction(id));
@@ -64,6 +62,7 @@ export default function ChildrenCandidateTalent(props) {
   );
 }
 export function ChildrenCandidateTalentLeft(props) {
+  console.log(props)
   const dispatch = useDispatch();
   const click = (id) => {
     dispatch(detailTalentAction(id));

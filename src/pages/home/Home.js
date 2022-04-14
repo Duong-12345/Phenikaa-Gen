@@ -18,6 +18,7 @@ import BodyHome from "./BodyHome";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllCandidate } from "../../action/actionCandidate";
 import { useEffect } from "react";
+import { Login } from "../login/Login";
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -140,7 +141,7 @@ function Home() {
             </nav>
             <Content style={{ background: "white" }}></Content>
             <Routes>
-              {/* <Route exact path="/" element={<Rules/>} /> */}
+              <Route exact path="/" element={<Login/>} />
               <Route path="/rule" element={<Rules />} />
               <Route path="/trang-chu" element={<BodyHome />} />
               <Route path="/register" element={<Registration />} />
@@ -154,7 +155,7 @@ function Home() {
                 path="/primary/talent/detail/:id"
                 element={<DetailTalent />}
               />
-              <Route path="*" element={<NotFound />} />
+              {/* <Route path="*" element={<NotFound />} /> */}
             </Routes>
 
             <Footer style={{ background: "#dfe6e9" }}>
